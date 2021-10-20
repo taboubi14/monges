@@ -1,0 +1,22 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+      "start": "node server/server.js",
+      "server": "nodemon server/server.js",
+      "dev": "concurrently \" npm run server\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+      "mongodb": "^4.0.1",
+      "mongoose": "^5.13.3"
+  },
+  "devDependencies": {
+      "concurrently": "^6.2.0",
+      "nodemon": "^2.0.12"
+  }
+}
